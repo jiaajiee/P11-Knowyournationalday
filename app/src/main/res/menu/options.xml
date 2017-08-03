@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_send"
+        android:title="Send to friend" />
+
+    <item android:id="@+id/action_quiz"
+        android:title="Quiz"/>
+
+    <item android:id="@+id/action_quit"
+        android:title="Quit"
+        app:showAsAction="ifRoom"/>
+</menu>
